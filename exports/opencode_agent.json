@@ -1,8 +1,0 @@
-{
-  "agent_id": "antimicrobial-resistance-gene-profiler",
-  "protocol": "opencode/v1",
-  "capabilities": [
-    "autonomous",
-    "governed"
-  ]
-}

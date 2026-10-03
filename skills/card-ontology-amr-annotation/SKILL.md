@@ -1,17 +1,25 @@
 ---
-name: "card-ontology-amr-annotation"
-description: "Performs profile HMM searches against the Comprehensive Antibiotic Resistance Database (CARD) ontology"
-version: "1.0.0"
-category: "healthcare"
+name: card-ontology-amr-annotation
+description: Specialized capability for Antimicrobial Resistance Gene Profiler.
+license: MIT
+allowed-tools: ""
+metadata:
+  author: "Rucha Salpure"
+  version: "1.0.0"
+  category: healthcare
 ---
 
-# Skill: card-ontology-amr-annotation
+# Antimicrobial Resistance Gene Profiler — CARD ONTOLOGY AMR ANNOTATION Skill
 
-## Overview
-Performs profile HMM searches against the Comprehensive Antibiotic Resistance Database (CARD) ontology.
+## Purpose
+The `card-ontology-amr-annotation` capability provides high-assurance execution routines for `Antimicrobial Resistance Gene Profiler`.
 
-## Execution Steps
-1. Parse and validate runtime parameters against the formal domain schema.
-2. Execute core computational and heuristic analysis pipeline.
-3. Format structured observations for Maker-Checker dual control review.
-4. Log all telemetry and performance metrics to the governance ledger.
+## Execution Workflow
+1. Validate input parameters against typed schemas and invariant constraints.
+2. Ingest contextual metrics and establish a deterministic baseline.
+3. Formulate candidate recommendations with explicit confidence intervals.
+4. Submit draft plans to the independent checker agent for verification.
+
+## Boundary Conditions
+- **Input validation:** Reject non-conforming or malformed payloads before evaluation.
+- **Fail-safe:** Escalate immediately if telemetry indicators exhibit critical anomalies.

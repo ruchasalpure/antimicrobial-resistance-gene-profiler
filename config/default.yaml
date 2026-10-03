@@ -1,6 +1,0 @@
-app:
-  name: "antimicrobial-resistance-gene-profiler"
-  environment: "production"
-  logging:
-    level: "INFO"
-    format: "json"
